@@ -1,0 +1,306 @@
+<resources>
+    <string name="app_name">KisaanDost</string>
+    <string name="hello_world">Language</string>
+    <string name="about_us">About_us</string>
+    <string name="next">NEXT</string>
+    <string name="title_activity_home_page">Home_page</string>
+    <string name="marketprice">Market price</string>
+    <string name="Equipments">Equipments</string>
+    <string name="Technique">Techniques</string>
+    <string name="schemes">Schemes</string>
+    <string name="title_activity_market_price">MarketPrice</string>
+    <string name="title_activity_scheme_manager">SchemeManager</string>
+    <string name="title_activity_display_manager">DisplayManager</string>
+    <string name="WhatToDo">What To Do:</string>
+    <string name="whomtocontact">Whom To Contact:</string>
+    <string name="DocumentRequired">Document Required:</string>
+    <string name="scheme">Scheme:</string>
+    <string name="soil">Soil</string>
+    <string name="seeds">Seeds</string>
+    <string name="Irrigation">Irrigation</string>
+    <string name="Training_For_Farmer">Training For Farmer</string>
+    <string name="Agriculture_Credit">Agriculture Credit</string>
+    <string name="Agriculture_Insuarance">Agriculture Insuarance</string>
+    <string name="Plant_Protection">Plant Protection</string>
+    <string name="Mechanization">Mechanization and Technology</string>
+    <string name="Agriculture_Marketing">Agriculture Marketing</string>
+    <string name="Integrated_Farming">Integrated Farming</string>
+    <string name="Horticulture">Horticulture</string>
+
+    <string-array name="type_of_crop">
+        <item>Food Grains</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Non-Food Crops</item>
+    </string-array>
+    <string-array name="soil">
+        <item>SOIL</item>
+        <item>• Always use appropriate fertilizer in right quantity based on soil test.</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>District Agriculture Officer / District Soil Conservation Officer</item>
+        <item>Bio-fertilizers(Rhyzobium/PSB)</item>
+        <item>50percentage of the cost limited to Rs 100/- per hectare.</item>
+        <item>Assistance for Soil Improvement</item>
+        <item>National Food Security Mission (NFSM)</item>
+        <item>Reclamation of Problem Soil</item>
+        <item>Alkaline/Saline Soil:50percentage of cost to a limit of Rs 25,000/-
+            per hectare. and or Rs 50,000/- per beneficiary.
+             Acidic Soil:50percentage of cost subject to a limit of Rs 3000/- per hectare.
+              and/or Rs6000/- per beneficiaries.</item>
+        <item>Assistance for Soil Improvement</item>
+        <item>National Mission for Sustainable Agriculture (NMSA)</item>
+        <item>Plant protection chemicals</item>
+        <item>Insecticides,fungicides,bio-pesticides,bio-agents,micro nutrients,bio-fertilizers etc.</item>
+        <item>Assistance for Soil Improvement</item>
+        <item>National Mission of Oilseeds and Oil Palm (NMOOP)</item>
+    </string-array>
+    <string-array name="seeds">
+        <item>SEEDS</item>
+        <item>• Always use recommended variety of seeds as per local climate and adopt recommended seed rate and spacing.\n
+			• Replace seeds of wheat, paddy, barley, pulses (except arhar), oilseeds (except rapeseed, mustard and sunflower) once in three years, seeds of maize, bajra, jowar, arhar, rapeseed, mustard and sunflower once in</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>District Agriculture Officer / District Soil Conservation Officer</item>
+        <item>Coarse cereals - Hybrid seeds</item>
+        <item>Rs 50/- per kg or 50percentage of cost whichever is less</item>
+        <item>Assistance for Seed Distribution</item>
+        <item>National Food Security Mission (NFSM)</item>
+        <item>HYV seeds of Paddy and Wheat</item>
+        <item>Rs 10/- per kg or 50percentage of the cost whichever is less</item>
+        <item>Assistance for Seed Distribution</item>
+        <item>National Food Security Mission (NFSM)</item>
+        <item>Assistance for boosting seed production in private sector including individual or entrepreneurs, self help groups etc.</item>
+        <item>Credit-linked back-ended capital subsidy at the rate of 40percentage of project cost in general areas and 50percentage in case of hill areas and scheduled areas subject to upper limit of Rs 150 lakhs per project.</item>
+        <item>Assistance for Production of Foundation and Certified Seeds</item>
+        <item>National Mission on Agricultural Extension and Technology (NMAET)</item>
+    </string-array>
+    <string-array name="Irrigation">
+        <item>Irrigation</item>
+        <item>• Conserve soil and water through good agricultural practices.\n
+• Harvest rain water through construction of check dams and ponds.\n
+• Adopt crop diversification , seed production and nursery raising in water logged areas.\n
+• Adopt drip and sprinkler irrigation system to save 30-37percentage water and enhance crop quality and productivity</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>District Agriculture Officer / District Soil Conservation Officer</item>
+        <item>Construction of new Farm Ponds with lining to reduce the percolation losses</item>
+        <item>Rs 40,000/- per pond of 20m x 20m x 3m for construction and Rs 40,000/- for lining purpose</item>
+        <item>Irrigation Management</item>
+        <item>National Mission of Oilseeds and Oil Palm (NMOOP)(NFSM)</item>
+        <item>Water lifting Devices (Electric, Diesel, Wind/ Solar)</item>
+        <item>50percentage of the cost of installation limited to Rs 15,000/- per electric/diesel unit andRs 50,000/- per solar/wind unit.</item>
+        <item>Water Harvesting and Management</item>
+        <item>National Mission for Sustainable Agriculture (NMSA)(NMAET)</item>
+        <item>Drip Irrigation</item>
+        <item>25-35percentage of the total cost of installation in nonDPAP/DD regions and 35-50percnetage in DPAP/DDP region Additional 10percentage assistanceto be provided by State Govt. (DPAP-Drought Prone Area Programme, DDP-Desert Development Programme, NEandH states –
+              North Eastern and Himalayan States) Upper limit of assistance will be restricted to the
+              amount as per the eligible pattern of assistance of the normative cost of installation.
+              Normative cost of installation for wide spaced crops Rs 37,200/ha (average) and for
+               close spaced crops Rs 90,000/ha (average). However, the cost will vary depending on crop
+               spacing and land size. Maximum permissible assistance will be restricted to 5 ha per beneficiary/group</item>
+        <item>Drip Irrigation</item>
+        <item>National Mission for Sustainable Agriculture (NMSA)</item>
+    </string-array>
+    <string-array name="Training">
+        <item>Training</item>
+        <item>• 25,000 functionaries dedicated for agricultural extension are being provided at the Block level and below, under the</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>District Agriculture Officer / District Soil Conservation Officer</item>
+        <item>Training on Repair, Maintenance, Operation and selection of various Agricultural Machinery and Equipments and Post Harvest Management</item>
+        <item>Rs 4000/- per person</item>
+        <item>Assistance for Training of Farmers</item>
+        <item>Sub- Mission on Agricultural Mechanization (SMAM)(NMSA)</item>
+        <item>Assistance for training on seed production and seed technology for a group of 50 to 150 farmers</item>
+        <item>Rs 15,000/- per training (for 3 one-day training programmes): (i)At the time of sowing of seed crop: training on seed production technique, isolation distance, sowing practices and other agronomic practices.(ii)At the time of flower initiation stage of the crop.(iii)After harvest and at the time of seed processin</item>
+        <item>Training and Extension for Farmers under National Mission for Sustainable Agriculture (NMSA)</item>
+        <item>Seed Village Programme</item>
+        <item>Training and Demonstration on Soil Health	</item>
+        <item>Training to farmers including field demonstrations; Rs 10,000/-per training session for 20 participants or more.Rs 20,000/- per Front Line Field Demonstration</item>
+        <item>Training and Extension for Farmers under National Mission for Sustainable Agriculture (NMSA)</item>
+        <item>National Mission for Sustainable Agriculture (NMSA)</item>
+    </string-array>
+    <string-array name="Credit">
+        <item>Credit</item>
+        <item>• To save themselves from the clutches of money lenders, farmers can avail loan facility from banks.\n
+• Loan facility is available through large network of Commercial Banks, Regional Rural Banks and Cooperative Credit Institutions in the country to fulfill the crop loan and term loan needs of the farmers.\n
+• Ensure timely repayment of bank loan.\n
+</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>Nearest Commercial Banks, Regional Rural Banks and Cooperative Credit Societies</item>
+        <item>Kisan Credit Card</item>
+        <item>Farmers can avail crop loan through Kisan Credit Card. Loan or credit limit is fixed on the basis of crop sown and area under cultivation. Kisan Credit Cards are valid for 3 to 5 years. Farmers are also provided risk coverage in the event of accidental death or disability. Crop coverage loans are covered under the Crop Insurance Scheme.</item>
+        <item>Credit Facility to Farmers</item>
+        <item>Farm Mechanisation Scheme(Central Schemes)(SMAM)(NMSA)</item>
+        <item>Investment Loan	</item>
+        <item>Loan facility to the farmers is available for investment purposes in the areas viz. Irrigation, Agricultural Mechanization, Land Development, Plantation, Horticulture and Post-Harvest Management</item>
+        <item>Credit Facility to Farmers</item>
+        <item>Farm Mechanisation Scheme(Central Schemes)</item>
+        <item>Interest Assistance</item>
+        <item>Crop loan upto Rs 3 lakhs at 7percentage rate of interest. This interest rate becomes 4percentage due to 3percentage interest subvention incentives provided to those farmers who repay crop loan on time</item>
+        <item>Credit Facility to Farmers</item>
+        <item>Farm Mechanisation Scheme(Central Schemes)</item>
+    </string-array>
+    <string-array name="Insurance">
+        <item>Insurance</item>
+        <item>• Safeguard yourself financially against non-preventable natural risks like natural disasters/calamity, insect, pests and diseases, and adverse weather conditions.\n
+• Insurance coverage under NAIS/MNAIS/WBCIS is compulsorily, if you avail crop loan for notified crops.\n
+Coverage is voluntary for non-loanee farmers.\n
+Contact nearest branch of bank/insurance company for availing the benefits under the Crop Insurance Scheme.</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>Nearest branch of Bank/Empanelled General Insurance Companies, Credit and Cooperative Society and District Agriculture Officer/</item>
+        <item>Coconut Palm Insurance</item>
+        <item>• Insurance protection for Coconut Palm growers.\n
+            • Premium rate per palm ranges from 9.00 (in the age group of 4 to 15 years) to 14.00 (in the age group of 16 to 60 years).\n
+            • 50-75percentage subsidy of premium is provided to all types of farmers.\n
+            • When the Palm trees are damaged, the indemnity payment equal to sum insured/ damage is payable to the insured farmers in notified areas.</item>
+        <item>Agriculture Insurance</item>
+        <item>Coconut Palm Insurance Scheme (CPIS)</item>
+        <item>National Agricultural Insurance</item>
+        <item>• Insurance protection for notified food crops, oilseeds and annual horticultural/commercial crops. • Actuarial Premium rate for notified crops subject to maximum premium upto 11percentage and 9percentage for food and oilseeds crops of Kharif and Rabi seasons, respectively. For annual commercial/horticultural crops, it is capped at 13percentage. • Subsidy upto 75percentage of premium is provided to all types of farmers depending on the slab of premium. a.Upto 2percentage to Nil, b. More than 2 to 5percentage : 40percentage subject to minimum net premium of 2percentage, c. More than 5 – 10percentage:50percentage subject to minimum net premium of 3percentage, d.More than 10 – 15percentage : 60percentage subject to minimum net premium of 5percentage, e.More than 15percentage : 75percentage subject to minimum net premiumof 6 percentage • If the sowing is not done due to adverse weather/climate, claims/indemnity upto 25percentage of sum insured will be paid for prevented sowing/planting risk. • When the crop yield is less than the gu aranteed yield of notified crops, the indemnity payment equal to shortfall in yield is payable to all insured farmers in the notified areas. • However, on-account advance payment, up to 25percentage of likely claims will be paid as immediate relief in those notified areas where yield losses are atleast 50percentage of Threshold Yield (TY). Besides, post harvest (upto 2 weeks) losses due to cyclone are also covered. Losses due to localized risks of hailstorm and landslide are assessed on individual basis and claims to affected insured farmers are paid accordingly.</item>
+        <item>Agriculture Insurance</item>
+        <item>Modified National Agricultural Insurance Scheme (MNAIS)</item>
+        <item>Weather Based Crop Insurance</item>
+        <item>• Insurance protection for notified food crops, oilseeds and horticultural/commercial crops • Actuarial Premium rate for notified crops, subject to maximum premium upto 10percentage and 8percentage for food and oilseeds crops of Kharif and Rabi seasons, respectively and 12percentage for annual commercial/horticultural crops. It is capped at 12percentage. a.Upto2percentage to Nil subsidy, b.More than 2 to 5percentage - 25percentage subsidy subject to minimum net premium of 2percentage, c.More than 5 to 8 to 40percentage subsidy subject to minimum net premium of 3.75percentage, d.More than 8to50percentage subsidy subject to minimum net premium of 4.8percentage and maximum net premium of 6percentage payable by farmers. • When the Weather indices (rainfall/temperature/relative humidity/wind speed etc) differ (less/higher) from the Guaranteed Weather Index of notified crops, the indemnity payment equal to deviation/shortfall is payable to all insured farmers of notified crops in notified area.</item>
+        <item>Agriculture Insurance</item>
+        <item>Weather Based Crop Insurance Scheme (WBCIS)</item>
+    </string-array>
+    <string-array name="Protection">
+        <item>Protection</item>
+        <item>• Bio-pesticides should be given priority over chemical pesticides.</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>District Agriculture Officer / District Soil Conservation Officer</item>
+        <item>Distribution of plant protection chemicals, bio-pesticides/IPM</item>
+        <item>50percentage of the cost or Rs 500/- per hectare whichever is less</item>
+        <item>Directorate of Plant Protection, Quarantine and Storage, Faridabad in Haryana, through its 31 Central IPM Centres, located across the country, organizes various programmes</item>
+        <item>National Food Security Mission (NFSM)(NMSA)</item>
+        <item>Farmers Field School organized through various Central Integrated Pest Management Centres(CIPMC)</item>
+        <item>Rs 26,700/- per field school</item>
+        <item>Directorate of Plant Protection, Quarantine and Storage, Faridabad in Haryana, through its 31 Central IPM Centres, located across the country, organizes various programmes</item>
+        <item>ATMA Scheme (NMAET), Sub schemes NHM/ HMNEH under MIDH</item>
+        <item>Farmers Field School organized through various Central Integrated Pest Management Centres(CIPMC)</item>
+        <item>Rs 26,700/- per field school</item>
+        <item>Directorate of Plant Protection, Quarantine and Storage, Faridabad in Haryana, through its 31 Central IPM Centres, located across the country, organizes various programmes</item>
+        <item>ATMA Scheme (NMAET), Sub schemes NHM/ HMNEH under MIDH</item>
+    </string-array>
+    <string-array name="Mechanization">
+        <item>Mechanization</item>
+        <item>• Procure appropriate machinery/ equipment as per land</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>District Agriculture Officer / District Soil Conservation Officer</item>
+        <item>Procurement subsidy for establishment Establishment of Farm Machinery Banks for of Custom Hiring Centre upto Rs. 60 lakhs under SMAM</item>
+        <item>Maximum Permissible Project Cost - Project based Rs 24 lakhs</item>
+        <item>Establishment of Farm Machinery Banks for Custom Hiring under SMAM</item>
+        <item>Farm Mechanisation Scheme(Central Schemes)</item>
+        <item>Financial Assistance for Farm Machinery Equipment under NFSM</item>
+        <item>Rs. 600/- per machine or 50percentage of the cost whichever is less for Rice Crop is admissible only</item>
+        <item>Financial Assistance for procurement of Agricultural Machinery and Equipment under NFSM</item>
+        <item>Farm Mechanisation Scheme(Central Schemes)</item>
+        <item>Financial Assistance for Farm Machinery Equipment under NFSM</item>
+        <item>Rs. 1500/- per machine or 50percentage of the cost whichever is less for Rice Crop is admissible only</item>
+        <item>Financial Assistance for procurement of Agricultural Machinery and Equipment under NFSM</item>
+        <item>Farm Mechanisation Scheme(Central Schemes)</item>
+    </string-array>
+    <string-array name="Marketing">
+        <item>Marketing</item>
+        <item>• Farmer can get the price information of their produce available on Agmarknet website (www.
+agmarknet.
+nic.
+in) or through Kisan Call Centres or SMS.\n
+• Harvesting and threshing should be done at appropriate time.\n
+• Proper grading, packing and labeling should be done before sale for better prices.\n
+• Transport of produce at proper market/mandi for getting remunerative price.\n
+</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>District Agriculture Officer / District Soil Conservation Officer</item>
+        <item>For all other categories of beneficiaries other than Sc/St,Ne state, hilly area.</item>
+        <item>subsidized financial support.</item>
+        <item>For Storage Infrastructure projects under Agricultural Marketing Infrastructure (AMI) sub scheme of ISAM Main grameen Bhandaran Yojana)</item>
+        <item>Integrated Scheme for Agricultural Marketing (ISAM)</item>
+        <item>NE States, Sikkim, UTs of Andaman and Nicobar and Lakshadweep Islands and hilly*areas with altitude >1000 m from msl</item>
+        <item>subsidized financial support.</item>
+        <item>For Storage Infrastructure projects under Agricultural Marketing Infrastructure (AMI) sub scheme of ISAM Main grameen Bhandaran Yojana)</item>
+        <item>Integrated Scheme for Agricultural Marketing (ISAM)</item>
+        <item>In other Areas For Registered FPOs, Panchayats, Women, Scheduled Caste (SC)/Scheduled Tribe (ST) beneficiaries or their cooperatives (certfred by state gov.) Self-Help Groups</item>
+        <item>subsidized financial support.</item>
+        <item>For Storage Infrastructure projects under Agricultural Marketing Infrastructure (AMI) sub scheme of ISAM Main grameen Bhandaran Yojana)</item>
+        <item>Integrated Scheme for Agricultural Marketing (ISAM)</item>
+    </string-array>
+    <string-array name="Farming">
+        <item>Farming</item>
+        <item>•• Promote crop / cropping system suitable to agro</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>District Agricultural Officer / District Horticulture Officer / Project Director (ATMA)</item>
+        <item>Cropping System (CS) with rice, wheat, coarse cereal/oil-seed/fibre/pulse based two crops.</item>
+        <item>50percentage of input cost limited to Rs 10,000/-per hectare with permissible assistance of maximum 2 hectare/beneficiary</item>
+        <item>Integrated Farming System</item>
+        <item>National Mission for Sustainable Agriculture (NMSA)</item>
+        <item>Horticulture Based Farming System (Plantation + Crops/Cropping system)</item>
+        <item>50percentage of input cost limited to Rs 25,000/- per hectare with permissibleassistance of maximum 2 hectare/ beneficiary</item>
+        <item>Integrated Farming System</item>
+        <item>National Mission for Sustainable Agriculture (NMSA)</item>
+        <item>CB Cows + Mixed farming + FodderBuffalo +Mixed farming +Fodder Cow/buffalo+dairy+fodder cow/buffalo + small ruminants</item>
+        <item>50percentage of input cost of cropping system including cost of animals with one year concentrated food limited to Rs 40,000/- per hectare (2 milch animals + 1 ha CS) with permissible assistance of maximum 2 ha/beneficiary.</item>
+        <item>Livestock based farming system</item>
+        <item>National Mission for Sustainable Agriculture (NMSA)</item>
+    </string-array>
+    <string-array name="Horticulture">
+        <item>Horticulture</item>
+        <item>• Adopt horticultural crops for higher income from lesser area.\n
+• For healthy crop plant use high quality seedlings.\n
+• To keep fruits and vegetables fresh for longer period, use cold storage facility/cool houses.
+• Earn maximum profit by adopting correct method of harvesting, cleaning, grading, processing and packing.\n
+• Produce off-season vegetables in poly-house, low-tunnel.</item>
+        <item>• Adhaar Card\n
+            • Voter Card</item>
+        <item>District Agriculture Officer / District Soil Conservation Officer</item>
+        <item>Bee Keeping for pollination support for bee hives (Maximum 50 colonies / beneficiary)</item>
+        <item>Rs. 800/- per hive</item>
+        <item>Assistance under Horticulture</item>
+        <item>Sub Schemes of NHM and HMNEH under MIDH</item>
+        <item>Flowers (Loose bulbous and cut flowers) (Maximum 2 hectares / beneficiary)</item>
+        <item>Rs.16,000/- per ha to Rs.60,000/- per ha</item>
+        <item>Assistance under Horticulture</item>
+        <item>Sub Schemes of NHM and HMNEH under MIDH</item>
+        <item>Establishing of new fruits orchard with integration of drip etc (for a Maximum area of 4 ha per beneficiary)</item>
+        <item>Rs. 0.40 lakh per ha. to Rs. 2.20 lakh/ha.</item>
+        <item>Assistance under Horticulture</item>
+        <item>Sub Schemes of NHM and HMNEH under MIDH</item>
+    </string-array>
+    <string name="em_t1">List of Equipments</string>
+    <string name="em_t2">Land Preparation</string>
+    <string name="str_bucket_scrapper">Bucket Scrapper</string>
+    <string name="str_cultivator">Cultivator</string>
+    <string name="str_disc_harrow">Disc Harrow</string>
+    <string name="str_disc_plough">Disc Plough</string>
+
+    <string name="str_potato_planter">Potato Planter</string>
+    <string name="str_rice_planter">Rice Planter</string>
+    <string name="str_fert_drill">Seed cum Fertilize Drill</string>
+    <string name="str_rice_transplanter">Rice Transplanter</string>
+    <string name="str_boom_sprayer">Boom Sprayer</string>
+    <string name="str_fert_spreader">Fertilizer Spreader</string>
+    <string name="str_backpack_harvester">Backpack Harvester</string>
+    <string name="str_sickle_sword">Sickle Sword</string>
+    <string name="str_thresher">Thresher</string>
+    <string name="str_harvester">Harvester</string>
+    <string name="str_baler">Baler</string>
+    <string name="str_mulcher">Mulcher</string>
+    <string name="str_shredder">Shredder</string>
+    <string name="str_scrub_master">Scrub Master</string>
+    <string name="str_straw_reaper">Straw Reaper</string>
+    <string name="str_trolley">Trolley</string>
+    <string name="str_conveyar_reaper">Conveyar Reaper</string>
+
+    <string name="sowing">Sowing</string>
+    <string name="crop_care">Crop Care</string>
+    <string name="harvesting">Harvesting</string>
+    <string name="post_harvest">Post Harvest</string>
+</resources>

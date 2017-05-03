@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.piyush.kisaandost.DisplayManager">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dm_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="@string/WhatToDo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/dm_textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DocumentRequired"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/dm_textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/whomtocontact"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/dm_textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scheme"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:background="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                    <TextView
+                        android:id="@+id/sno"
+                        android:background="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SNo"/>
+                    <TextView
+                        android:id="@+id/assiatance"
+                        android:background="#000000"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Assistance Detail"/>
+                    <TextView
+                        android:id="@+id/provision"
+                        android:background="#000000"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Provision"/>
+                    <TextView
+                        android:id="@+id/Category"
+                        android:background="#000000"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Category"/>
+                    <TextView
+                        android:id="@+id/Scheme_Component"
+                        android:background="#000000"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Scheme/Component"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                    <TextView
+                        android:id="@+id/sno1"
+                        android:background="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SNo"/>
+                    <TextView
+                        android:id="@+id/assiatance1"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Assistance Detail"/>
+                    <TextView
+                        android:id="@+id/provision1"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Provision"/>
+                    <TextView
+                        android:id="@+id/Category1"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Category"/>
+                    <TextView
+                        android:id="@+id/Scheme_Component1"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Scheme/Component"/>
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"/>
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                    <TextView
+                        android:id="@+id/sno2"
+                        android:background="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SNo"/>
+                    <TextView
+                        android:id="@+id/assiatance2"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Assistance Detail"/>
+                    <TextView
+                        android:id="@+id/provision2"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Provision"/>
+                    <TextView
+                        android:id="@+id/Category2"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Category"/>
+                    <TextView
+                        android:id="@+id/Scheme_Component2"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Scheme/Component"/>
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"/>
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                    <TextView
+                        android:id="@+id/sno3"
+                        android:background="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SNo"/>
+                    <TextView
+                        android:id="@+id/assiatance3"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Assistance Detail"/>
+                    <TextView
+                        android:id="@+id/provision3"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Provision"/>
+                    <TextView
+                        android:id="@+id/Category3"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Category"/>
+                    <TextView
+                        android:id="@+id/Scheme_Component3"
+                        android:background="#ffffff"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Scheme/Component"/>
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="#000000"/>
+
+            </TableLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

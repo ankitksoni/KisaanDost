@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.piyush.kisaandost.EquipmentManager">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    android:layout_marginBottom="200dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+
+    <TextView
+        android:id="@+id/em_t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/em_t1"
+        android:textStyle="bold"
+        tools:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/em_t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/em_t2"
+        android:textStyle="bold"
+        tools:textSize="18sp" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/em_bucket_scrapper"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/bucket_scrapper"/>
+            <TextView
+                android:id="@+id/str_bucket_scrapper"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_bucket_scrapper"
+                android:gravity="center"/>
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/em_cultivator"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/cultivator"/>
+            <TextView
+                android:id="@+id/str_cultivator"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cultivator"
+                android:gravity="center"/>
+        </LinearLayout>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/em_disc_harrow"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/disc_harrow"/>
+            <TextView
+                android:id="@+id/str_disc_harrow"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cultivator"
+                android:gravity="center"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_disc_plough"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/disc_plough"/>
+                <TextView
+                    android:id="@+id/str_disc_plough"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_disc_plough"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sowing"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_potato_planter"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/potato_planter"/>
+                <TextView
+                    android:id="@+id/str_potato_planter"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_potato_planter"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_rice_planter"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/riding_type_rice_transplanter"/>
+                <TextView
+                    android:id="@+id/str_rice_planter"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_rice_planter"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_fert_drill"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/seed_cum_fertilizer_drill"/>
+                <TextView
+                    android:id="@+id/str_fert_drill"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_fert_drill"
+                    android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_rice_transplanter"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/walk_behind_rice_transplanter"/>
+                <TextView
+                    android:id="@+id/str_rice_transplanter"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_rice_transplanter"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/crop_care"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_boom_sprayer"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/boom_sprayer"/>
+                <TextView
+                    android:id="@+id/str_boom_sprayer"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_boom_sprayer"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_fert_spreader"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/fertilizer_spreader"/>
+                <TextView
+                    android:id="@+id/str_fert_spreader"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_fert_spreader"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:text="@string/harvesting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_backpack_harvester"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/backpack_harvester"/>
+                <TextView
+                    android:id="@+id/str_backpack_harvester"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_backpack_harvester"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_sickle_sword"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/sickel_sword"/>
+                <TextView
+                    android:id="@+id/str_sickle_sword"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_sickle_sword"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_thresher"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/thresher"/>
+                <TextView
+                    android:id="@+id/str_thresher"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_thresher"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_harvester"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/sickel_sword"/>
+                <TextView
+                    android:id="@+id/str_harvester"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_harvester"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:text="@string/post_harvest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_baler"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/baler"/>
+                <TextView
+                    android:id="@+id/str_baler"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_baler"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_mulcher"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/mulcher"/>
+                <TextView
+                    android:id="@+id/str_mulcher"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_mulcher"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_shredder"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/shredder"/>
+                <TextView
+                    android:id="@+id/str_shredder"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_shredder"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_scrub_master"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/shrub_master"/>
+                <TextView
+                    android:id="@+id/str_scrub_master"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_scrub_master"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_straw_reaper"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/straw_reaper"/>
+                <TextView
+                    android:id="@+id/str_straw_reaper"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_straw_reaper"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_trolley"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/trolley"/>
+                <TextView
+                    android:id="@+id/str_trolley"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_trolley"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/em_conveyar_reaper"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/vertical_conveyer_reaper"/>
+                <TextView
+                    android:id="@+id/str_conveyar_reaper"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_conveyar_reaper"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
