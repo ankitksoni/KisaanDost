@@ -324,4 +324,6 @@ Agmarknet
         <item>बागवानी के अंतर्गत सहायता</item>
         <item>एनएचएम और एचएमएनईएच के उप-योजनाएं MIDH के अंतर्गत</item>
     </string-array>
+
+    <string name="em_t1">List of Equipments</string>
 </resources>

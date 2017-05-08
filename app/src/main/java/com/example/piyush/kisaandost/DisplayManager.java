@@ -15,12 +15,13 @@ public class DisplayManager extends AppCompatActivity implements OnClickListener
     TextView head,whatToDo,documentRequired,whomToContact,assistanceDetail,provision,category,component,sno;
     TextView assistanceDetail1,provision1,category1,component1,sno1,assistanceDetail2,provision2,category2,component2,sno2;
     String[] display;
+    String Text;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_manager);
         Intent i=getIntent();
-        String Text=i.getExtras().getString("dms");
+        Text=i.getExtras().getString("dms");
 
         if(Text.equalsIgnoreCase("Soil")){
             display=getResources().getStringArray(R.array.soil);

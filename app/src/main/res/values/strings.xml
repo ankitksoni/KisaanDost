@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">KisaanDost</string>
     <string name="hello_world">Language</string>
+    <string name="English">English</string>
+    <string name="Hindi">Hindi</string>
     <string name="about_us">About_us</string>
     <string name="next">NEXT</string>
     <string name="title_activity_home_page">Home_page</string>
@@ -274,6 +276,9 @@ in) or through Kisan Call Centres or SMS.\n
         <item>Assistance under Horticulture</item>
         <item>Sub Schemes of NHM and HMNEH under MIDH</item>
     </string-array>
+
+
+
     <string name="em_t1">List of Equipments</string>
     <string name="em_t2">Land Preparation</string>
     <string name="str_bucket_scrapper">Bucket Scrapper</string>
@@ -303,4 +308,27 @@ in) or through Kisan Call Centres or SMS.\n
     <string name="crop_care">Crop Care</string>
     <string name="harvesting">Harvesting</string>
     <string name="post_harvest">Post Harvest</string>
+
+    <string name="desc_bucket_scrapper">Mahindra Bucket Scrapper is a Tractor mounted implement used for scrapping of uneven land and levelling it. This implement helps reduce soil erosion by levelling the land uniformly and also ensures uniform irrigation for the entire area.</string>
+    <string name="desc_cultivator">Mahindra Cultivator is a secondary tillage equipment mounted on a tractor to till the agriculture land. The cultivator is available in different sizes for different HP range of tractor. It stirs and pulverizes the soil before planting .</string>
+    <string name="desc_disc_harrow">Mahindra Disc Harrow is a tractor mounted implement attached on tow hook. Helps break the big clots of soil which emerge from the ploughing operations.</string>
+    <string name="desc_disc_plough">The Mahindra AppliTracs Disc Plough is a 3 point linkage primary land preparation implement. It is used for digging soil, generally more useful for soft soil condition.</string>
+    <string name="desc_potato_planter">Mahindra Potato planter is an ideal planting machine for small and big farms and suitable for minimum 45 HP tractors. An advance planting mechanism which ensures high planting speed with good accuracy and allows gentle handling of seed potatoes</string>
+    <string name="desc_rice_planter">Rice transplantation has a short sowing time frame available, it is critical to sow rice within this duration. Manual transplantation involves a lot of hardwork and consumes more time. Mechanisation in rice transplantation removes human drudgery and also helps sow rice faster. Mahindra AppliTracs Riding Type Rice Transplanter ensures precise transplantation by maintaining plant to plant distance and number of saplings per hill which helps better weeding and interculture and contributes to overall productivity.</string>
+    <string name="desc_fert_drill">Mahindra Seed drill is used for sowing of different type of seeds. The seed drill effectively sows seeds at equal distances and proper depth and helps avoid wastage.</string>
+    <string name="desc_walk_behind_rice_transplanter">Rice transplantation has a short sowing time frame available, it is critical to sow rice within this duration. Manual transplantation involves a lot of hardwork and consumes more time. Mechanisation in rice transplantation removes human drudgery and also helps sow rice faster. Mahindra AppliTracs Walk Behind Type Rice Transplanter ensures precise transplantation by maintaining plant to plant distance and number of saplings per hill which helps better weeding and interculture and contributes to overall productivity.</string>
+    <string name="desc_boom_sprayer">Mahindra Boom sprayer is connected to the three point linkage of tractor and is used for spraying on all kinds of crops to ensure crop protection.</string>
+    <string name="desc_fert_sprayer">Mahindra Fertilizer Spreader has been specially designed for spreading fertilizers in the field. This technology has been introduced for the first time in India. This machine is a three point linkage mounted implement and can be transported from one place to other.</string>
+    <string name="desc_backpack_harvester">Mahindra Back pack harvester is mounted on an existing tractor for harvesting of wheat, rice and other crops. It is suitable for small and marginal landholdings, helps increase utilisation of tractor and hence balance the economy of operations.</string>
+    <string name="desc_sickle_sword">Connected with a three-point linkage mechanism and operated via the tractor’s powertrain, the Sickle Sword has a double-action cutter bar for swift, efficient cutting. It can be operated at variable speeds, and is easily detachable. Its unique floating mechanism follows the soil profile, and its robust construction and wear-resistant blade ensures equipment longevity.
+</string>
+    <string name="desc_thresher">Mahindra Mechanical Thresher offers speedy threshing operation for crops like wheat and rice in comparison to manual operations and helps reduce drudgery.</string>
+    <string name="desc_harvester">Mahindra Combine Harvester with tractor gives farmers the complete harvesting solution from cutting to threshing of crop. Tractor is mounted on harvester during harvesting time and acts as prime mover.</string>
+    <string name="desc_baler">Mahindra Baler is used for post harvest application which allows handelling straw of harvested crop. Baler helps collect the straws and packs them into bundles so that it can be easily handled and transported.</string>
+    <string name="desc_mulcher">Mahindra Mulcher is a Tractor mounted post harvest implement which helps clear remains of the harvested plants like cotton and banana. This single operation helps clear the field and prepare it for the next sowing season.</string>
+    <string name="desc_shredder">Mahindra Shredder Handles residual crop in field an important farm activity. Shredder chops the residual crop and mixes the same with soil, which becomes a natural compost for the next crop.</string>
+    <string name="desc_scrub_master">Backed by the well equipped infrastructural facilities and experienced personnel, our company has emerged as one of the well established manufacturers and exporters of Shrub Master.</string>
+    <string name="desc_straw_reaper">Mahindra straw reaper performs 3 operations cut, thresh and clean straw in one pass. The Straw reaper when used with Mahindra tractors gives exceptional performance and consumes less fuel.</string>
+    <string name="desc_trolley">Mahindra Trolley primarily helps in transportation of agriculture produce. It is available in various sizes and can be attached with tractors of different HP type.</string>
+    <string name="desc_conveyar_reaper">Mahindra vertical conveyer reaper offers speedy harvesting operation for crops like wheat, rice, soyabean in comparison to manual operations and helps reduce drugery.</string>
 </resources>
