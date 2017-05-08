@@ -1,0 +1,394 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kisaandost.FarmingTechniqueManager" >
+
+     <Spinner
+        android:id="@+id/ft_spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      />
+
+    <TableLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/ft_tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            >
+            <TextView 
+                android:id="@+id/ft_sno1"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                 android:paddingLeft="20dp"
+                
+                android:text="1"/>
+            <TextView 
+                android:id="@+id/ft_cropname1"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                
+                android:text=""/>
+            
+        </TableRow>
+          <TableRow
+            android:id="@+id/ft_tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp">
+            <TextView 
+                android:id="@+id/ft_sno2"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="i"/>
+            <TextView 
+                android:id="@+id/ft_tech1"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+        
+          <TableRow
+            android:id="@+id/ft_tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/ft_sno3"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="ii"/>
+            <TextView 
+                android:id="@+id/ft_tech2"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+          <TableRow
+            android:id="@+id/ft_tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/ft_sno4"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="iii"/>
+            <TextView 
+                android:id="@+id/ft_tech3"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>      
+          <TableRow
+            android:id="@+id/ft_tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/ft_sno5"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="iv"/>
+            <TextView 
+                android:id="@+id/ft_tech4"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+     <TableRow
+            android:id="@+id/ft_tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" >
+            <TextView 
+                android:id="@+id/ft_sno6"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                 android:paddingLeft="20dp"
+                android:text="2"/>
+            <TextView 
+                android:id="@+id/ft_cropname2"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text=""/>
+            
+        </TableRow>
+          <TableRow
+            android:id="@+id/ft_tableRow7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" >
+            <TextView 
+                android:id="@+id/ft_sno7"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="i"/>
+            <TextView 
+                android:id="@+id/ft_tech5"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+        
+          <TableRow
+            android:id="@+id/ft_tableRow8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/ft_sno8"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="ii"/>
+            <TextView 
+                android:id="@+id/ft_tech6"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+          <TableRow
+            android:id="@+id/ft_tableRow9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/ft_sno9"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="iii"/>
+            <TextView 
+                android:id="@+id/ft_tech7"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>      
+          <TableRow
+            android:id="@+id/ft_tableRow10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/ft_sno10"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="iv"/>
+            <TextView 
+                android:id="@+id/ft_tech8"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+        <TableRow
+            android:id="@+id/ft_tableRow11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="2dp" >
+            <TextView 
+                android:id="@+id/ft_sno11"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                 android:paddingLeft="20dp"
+                android:text="3"/>
+            <TextView 
+                android:id="@+id/ft_cropname3"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text=""/>
+            
+        </TableRow>
+          <TableRow
+            android:id="@+id/ft_tableRow12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp" >
+            <TextView 
+                android:id="@+id/ft_sno12"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="i"/>
+            <TextView 
+                android:id="@+id/ft_tech9"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+        
+          <TableRow
+            android:id="@+id/ft_tableRow13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/ft_sno13"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="ii"/>
+            <TextView 
+                android:id="@+id/ft_tech10"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+          <TableRow
+            android:id="@+id/ft_tableRow14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/ft_sno14"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="iii"/>
+            <TextView 
+                android:id="@+id/ft_tech11"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>      
+          <TableRow
+            android:id="@+id/ft_tableRow15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/ft_sno15"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="iv"/>
+            <TextView 
+                android:id="@+id/ft_tech12"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+     <TableRow
+            android:id="@+id/ft_tableRow16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="2dp" >
+            <TextView 
+                android:id="@+id/ft_sno16"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                 android:paddingLeft="20dp"
+                android:text="4"/>
+            <TextView 
+                android:id="@+id/ft_cropname4"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text=""/>
+            
+        </TableRow>
+          <TableRow
+            android:id="@+id/ft_tableRow17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp">
+            <TextView 
+                android:id="@+id/ft_sno17"
+                android:background="#DD00AA"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:paddingLeft="30dp"
+                android:text="i"/>
+            <TextView 
+                android:id="@+id/ft_tech13"
+                android:background="#DD00AA"
+                android:layout_marginLeft="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="20dp"
+                android:text=""/>
+            
+        </TableRow>
+        
+          
+           
+    </TableLayout>
+
+</LinearLayout>
